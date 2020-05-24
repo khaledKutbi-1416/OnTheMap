@@ -1,0 +1,14 @@
+//
+//  PostStudentLocation.swift
+//  OnThaMap
+//
+//  Created by Khaled Kutbi on 23/09/1441 AH.
+//  Copyright © 1441 udacity. All rights reserved.
+//
+
+import Foundation
+struct PostStudentLocation: Codable{
+    
+      let createdAt: String
+      let objectId: String
+}
